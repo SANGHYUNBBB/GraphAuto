@@ -6,7 +6,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 FONT_DIR = BASE_DIR / "fonts"
-EXCEL_FILE = BASE_DIR / "sector.xlsx"
+EXCEL_FILE = BASE_DIR / "Stock.xlsx"
 
 FONT_PATH = FONT_DIR / "KOPUBDOTUM_PRO BOLD.OTF"
 font = font_manager.FontProperties(fname=str(FONT_PATH))
